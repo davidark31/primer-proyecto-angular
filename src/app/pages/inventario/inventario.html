@@ -1,0 +1,8 @@
+<button *ngIf="rol==='admin'" (click)="limpiar()" >Limpiar</button>
+
+
+<ul>
+    <li *ngFor="let p of productos">
+        Nombre: {{p.nombre}}, Cantidad:{{p.cantidad}}
+    </li>
+</ul>

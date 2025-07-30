@@ -1,0 +1,18 @@
+/* Elimina márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que body ocupe todo el alto */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Quita padding de router-outlet o app principal si aplica */
+app-root, router-outlet {
+    display: block;
+    width: 100%;
+}

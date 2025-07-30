@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Producto } from '../shared/interfaces/productos.interface';
+import { Producto } from '../../shared/interfaces/productos.interface';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-inventario',
   imports: [CommonModule],
-  templateUrl: './inventario.html',
-  styleUrl: './inventario.scss',
+  templateUrl: './inventario.component.html',
+  styleUrl: './inventario.component.scss',
 })
-export class Inventario implements OnInit{
+export class InventarioComponent implements OnInit{
 
   rol:string|null="";
   isAdmin:boolean=false;

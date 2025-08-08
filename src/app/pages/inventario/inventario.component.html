@@ -1,8 +1,3 @@
-<button *ngIf="rol==='admin'" (click)="limpiar()" >Limpiar</button>
+<button *ngIf="rol==='admin'" (click)="abrirModal()" >Limpiar</button>
 
-
-<ul>
-    <li *ngFor="let p of productos">
-        Nombre: {{p.nombre}}, Cantidad:{{p.cantidad}}
-    </li>
-</ul>
+<app-table></app-table>

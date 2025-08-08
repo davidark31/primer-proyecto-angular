@@ -1,4 +1,7 @@
 export interface Producto{
-    nombre:string,
-    cantidad:number
+    ERP:string,
+    EAN:string,
+    TIPO:string,
+    SKU:string,
+    MEDIDA:string
 }

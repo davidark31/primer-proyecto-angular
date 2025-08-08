@@ -1,0 +1,16 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Confirmacion</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <p>{{ data.mensaje }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button color="primary" (click)="onConfirm()">
+            {{ data.btnNombre }}
+        </button>
+        <button mat-button color="warn" (click)="onCancel()">
+            Cancelar
+        </button>
+    </mat-card-actions>
+</mat-card>

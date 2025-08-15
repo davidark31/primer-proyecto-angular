@@ -14,6 +14,10 @@ export class Nav {
     this.r.navigate(['']);
   }
 
+  irAPokemon() {
+    this.r.navigate(['pokemon']);
+  }  
+
     irAContact() {
     this.r.navigate(['contact']);
   }

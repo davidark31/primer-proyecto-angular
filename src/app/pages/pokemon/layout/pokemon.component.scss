@@ -1,0 +1,13 @@
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pokemon-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
